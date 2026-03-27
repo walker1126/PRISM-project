@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="LAC: Latent Action Composition for Skeleton-based Action Segmentation">
+
+    	<title>PRISM: Learning a Shared Primitive Space for Transferable Skeleton Action Representation</title>
+		
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+	<div class="container">
+      <div class="header">
+        <h2><center> 
+		PRISM: Learning a Shared Primitive Space for Transferable Skeleton Action Representation
+		<br/> (ICCV'2023)</center></h2>
+		<h3><center></center></h3>
+		<h4> <center> 
+			<a href="https://walker1126.github.io" class="text-info">Di Yang<sup>1</sup></a>&nbsp&nbsp&nbsp&nbsp  
+			<a href="https://fusionk.github.io/quankong/" class="text-info">Quan Kong<sup>3</sup></a>&nbsp&nbsp&nbsp&nbsp
+			<a href="https://www.linkedin.com/in/lorenzo-garattoni/" class="text-info">Lorenzo Garattoni<sup>2</sup></a><br/>
+			<a href="https://iridia.ulb.ac.be/~gfrancesca/Gianpiero_Francesca/Home.html" class="text-info">Gianpiero Francesca<sup>2</sup></a>&nbsp&nbsp&nbsp&nbsp
+			<a href="http://www-sop.inria.fr/members/Francois.Bremond/" class="text-info">François Brémond<sup>1</sup></a>
+		</center></h4>
+		<h4> <center><sup>1</sup>Inria,&nbsp Université Côte d&#39Azur &nbsp&nbsp <sup>2</sup>Toyota Motor Europe &nbsp&nbsp <sup>3</sup>Woven by Toyota</center> </h4>
+	      	<h5> <center><sup>&dagger;</sup>Corresponding author</center> </h5>
+	  </div>
+
+	<div class="row">
+    <hr>
+    <h2><center>Abstract</center></h2>
+    <h4> Real-world human action understanding remains challenging due to long-tailed label distributions, compositional motion patterns, and viewpoint variations. Existing skeleton-based methods often lack a structured and transferable representation of motion, and task-specific models for generation, classification, and detection are usually trained independently, resulting in fragmented pipelines and limited cross-task generalization. We present PRISM, a \textbf{PRI}mitive-centric \textbf{S}keleton \textbf{M}odeling framework that learns a shared motion representation from a motion generation objective and transfers it to perception tasks. PRISM represents each action sequence as a trajectory in a primitive coefficient space, which captures how a set of learned atomic motion primitives contribute to the observed motion. A structured decomposition module learns this representation in a physically grounded and view-invariant manner via motion generation. Instead of enforcing joint or unified training across tasks, PRISM provides a single primitive-centric representation that can be sequentially transferred to downstream classification and frame-wise detection through lightweight task heads. This representation introduces structure, compositionality, and improved generalization across distinct supervisions. PRISM consistently improves performance on long-tailed and multi-label datasets and enables interpretable reasoning over compositional and rare actions. Extensive experimental results show that the structured primitive space serves as a transferable and robust foundation for diverse action understanding tasks in real-world datasets.
+    </h4>
+
+   <center>
+   <h3>
+	   <a href="https://arxiv.org/pdf/2308.14500.pdf" class="text-info">[Paper]</a> &nbsp&nbsp&nbsp&nbsp 
+	   <a href="https://github.com/walker1126/Latent_Action_Composition" class="text-info">[Code]</a> &nbsp&nbsp&nbsp&nbsp 
+	   <a href='lac.txt' class="text-info">[Bibtex]</a>
+ 	<video width="1120" height="630" autoplay="autoplay" loop="loop" muted="muted" controls>
+		<source src="imgs/5050-video.mp4" type="video/mp4">
+	</video>
+	
+	</center>
+
+	</div>	
+	
+    <!--
+<h3><a href="https://arxiv.org/pdf/2107.08580" class="text-info">[Paper]</a> &nbsp&nbsp&nbsp&nbsp <a href="https://github.com/YangDi666/UNIK" class="text-info">[Code]</a> &nbsp&nbsp&nbsp&nbsp <a href="https://github.com/YangDi666/UNIK" class="text-info">[Posetics Dataset]</a>
+ 
+    <div class="row">
+    <hr>
+    <h2><center>Results</center></h2>
+	 
+	<figure>
+		<center>
+		<img src="imgs/curve.jpg" title="" style="max-width:100%;vertical-align:top"/>
+		
+		</center>
+		
+		<figcaption><b>UNIK.</b> 
+		
+	  	
+		</figure>	
+	</div>
+	-->
+	<hr>
+	</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    </body>
+</html>
